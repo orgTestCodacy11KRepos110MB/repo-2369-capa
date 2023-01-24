@@ -110,7 +110,7 @@
 - fix: improve exception handling to prevent IDA from locking up when errors occur #1262 @mike-hunhoff
 - verify rule metadata using Pydantic #1167 @mr-tz
 - extractor: make read consistent with file object behavior #1254 @mr-tz
-- store capa results across runs #1279 @mr-tz
+- cache capa results across IDA sessions #1279 @mr-tz
 
 ### Development
 
